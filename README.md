@@ -1,4 +1,4 @@
-# Root Robot Accessories
+# Root Robot Docs
 
 [Root](https://rootrobotics.com/) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
 
