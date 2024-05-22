@@ -1,6 +1,6 @@
 # Root Robot Docs
 
-The [iRobot Root Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
+The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
 Program the robots using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
 
 ![Root Drawing](images/root-drawing.jpg)
@@ -57,6 +57,9 @@ Root has the ability to provide power to an accessory from the USB-C port. When 
 [This cable](https://www.amazon.com/AmazonBasics-USB-Type-C-Micro-B-Cable/dp/B01LONQBDG/) has been verified to work with the robot.
 
 [This article](https://www.embedded.com/design/power-optimization/4458380/USB-Type-C-and-power-delivery-101-----Ports-and-connections) contains more information about USB-C cable configurations.
+
+## Frequently Asked Questions
+
 
 ## License
 
