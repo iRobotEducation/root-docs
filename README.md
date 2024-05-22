@@ -22,7 +22,7 @@ Root has the ability to provide power to an accessory from the USB-C port. When 
 
 ## License
 
-Root Robot Accessories are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+Root Robot Docs are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
 You should have received a [copy of the license](LICENSE.txt) along with this work. If not, see <https://creativecommons.org/licenses/by-nc/4.0/>
 
