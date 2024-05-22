@@ -5,13 +5,21 @@
 ![Root Drawing](images/root-drawing.jpg)
 
 ## Instructions For Use
+
 **TURNING ROOT ON/OFF** - Press the power button until the lights turn on/off.
+
 **HARD RESET ROOT** - If Root is not responding as expected, hold the power button for 10 seconds to turn Root off.
+
 **LOW BATTERY WARNING** - If Root flashes red, then the battery is low and needs to be charged.
+
 **CLICKING NOISE** - Root’s drive wheels have internal clutches to prevent damage to the motors if Root is pushed or gets stuck.
+
 **PEN / MARKER COMPATIBILITY** - Root’s marker holder will work with many standard sizes. The marker or pen should not touch the surface underneath until Root lowers the marker holder.
+
 **WHITEBOARD COMPATIBILITY** (model RT1 only) - Root will operate on vertical whiteboards that are magnetic. Root will not operate on magnetic whiteboard paint.
+
 **ERASER FUNCTION** (model RT1 only) - Root’s eraser will only erase dry erase marker on magnetic whiteboards.
+
 **ERASER PAD CLEANING / REPLACEMENT** (model RT1 only) - Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad and wash or replace as needed.
 
 ## Charging
