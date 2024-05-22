@@ -4,6 +4,34 @@
 
 ![Root Drawing](images/root-drawing.jpg)
 
+## Instructions For Use
+**TURNING ROOT ON/OFF** - Press the power button until the lights turn on/off.
+**HARD RESET ROOT** - If Root is not responding as expected, hold the power button for 10 seconds to turn Root off.
+**LOW BATTERY WARNING** - If Root flashes red, then the battery is low and needs to be charged.
+**CLICKING NOISE** - Root’s drive wheels have internal clutches to prevent damage to the motors if Root is pushed or gets stuck.
+**PEN / MARKER COMPATIBILITY** - Root’s marker holder will work with many standard sizes. The marker or pen should not touch the surface underneath until Root lowers the marker holder.
+**WHITEBOARD COMPATIBILITY** (model RT1 only) - Root will operate on vertical whiteboards that are magnetic. Root will not operate on magnetic whiteboard paint.
+**ERASER FUNCTION** (model RT1 only) - Root’s eraser will only erase dry erase marker on magnetic whiteboards.
+**ERASER PAD CLEANING / REPLACEMENT** (model RT1 only) - Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad and wash or replace as needed.
+
+## Charging
+Use the supplied USB cable to charge your robot under adult supervision. The power source should be regularly examined for damage to the cord, plug, enclosure or other parts. In the event of such damage, the charger must not be used until it is repaired.
+- Do not charge near a flammable surface or material, or near a conducting surface. • Do not leave robot unattended while charging.
+- Disconnect charging cable when robot is finished charging.
+- Never charge while the device is hot.
+- Do not cover your robot while charging.
+- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F).
+
+## Care and Cleaning
+- Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
+- Root has no serviceable parts though it is important to keep the sensors clean for optimal performance.
+- To clean sensors, lightly wipe top and bottom with a lint-free cloth to remove smudges or debris.
+- Do not attempt to clean your robot with solvent, denatured alcohol, or flammable liquid. Doing so may damage your robot, make your robot inoperable, or cause a fire.
+- Electrostatic discharge may affect the performance of this product and cause malfunction. Please reset the device using the following steps:
+(1) unplug any external connections,
+(2) hold the power button for 10 seconds to turn off the device,
+(3) press the power button to turn the device on again.
+
 ## Mechanical
 
 ### Top Magnets
