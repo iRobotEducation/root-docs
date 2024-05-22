@@ -24,7 +24,8 @@
 
 ## Charging
 Use the supplied USB cable to charge your robot under adult supervision. The power source should be regularly examined for damage to the cord, plug, enclosure or other parts. In the event of such damage, the charger must not be used until it is repaired.
-- Do not charge near a flammable surface or material, or near a conducting surface. • Do not leave robot unattended while charging.
+- Do not charge near a flammable surface or material, or near a conducting surface.
+- Do not leave robot unattended while charging.
 - Disconnect charging cable when robot is finished charging.
 - Never charge while the device is hot.
 - Do not cover your robot while charging.
