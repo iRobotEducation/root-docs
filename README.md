@@ -1,6 +1,6 @@
 # Root Robot Docs
 
-[Root](https://rootrobotics.com/) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
+The [iRobot Root Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
 
 ![Root Drawing](images/root-drawing.jpg)
 
