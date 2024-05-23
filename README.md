@@ -1,14 +1,14 @@
-# Root Robot Docs
+# Root® Robot Documentation
 
-The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
-The robots follow an open [Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
+The [iRobot® Root® Coding Robot](https://edu.irobot.com/root)[^1] is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
+The robots follow an open [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol)[^2] and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
 Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
 
 ![Root Drawing](images/root-drawing.jpg)
 
 ## Instructions For Use
 
-**TURNING ROOT ON/OFF** - Press the power button until the lights turn on/off.
+**TURNING ROOT ON/OFF** - Press and hold the yellow button (otherwise referred to as its “nose”) until the lights turn on/off.
 
 **HARD RESET ROOT** - If Root is not responding as expected, hold the power button for 10 seconds to turn Root off.
 
@@ -84,9 +84,9 @@ Yes. Root® coding robots are controlled by their companion iRobot Coding App.
 
 The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Android, Windows, Chrome OS, iOS and macOS. 
 
-The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding) or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology, such as Chrome or Edge.
+The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548)[^3], [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding)[^4], or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology, such as Chrome or Edge.
 
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. All other trademarks mentioned are the property of their respective owners.
+All other trademarks mentioned are the property of their respective owners.
 
 </details>
 
@@ -120,13 +120,11 @@ Python is governed by the Python Software Foundation. All other trademarks menti
 
 The Root® coding robots are designed to be used with the iRobot Coding App. The iRobot Coding App is compatible with devices running most major, up-to-date operating systems, including [Web](https://code.irobot.com/), [iOS](https://apps.apple.com/app/id1524652548), and [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding).
 
-In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a Bluetooth® supported browser. 
+In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a [Web Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility) supported browser like Chrome or Edge. 
 
-For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol), so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
+For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol)[^2], so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
 
-Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
-
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. Raspberry Pi® is a trademark of Raspberry Pi Trading. All other trademarks mentioned are the property of their respective owners.
+Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3[^6] to drive your Root® coding robots using arrow keys.
 
 </details>
 
@@ -396,7 +394,7 @@ The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth
 <summary><b>How can I reset my Root® coding robot?</b></summary>
 
 Regular Reset:
-To regularly turn off your Root® coding robot and/or force a disconnection of the Bluetooth® Low Energy connection:
+To regularly turn off your Root® coding robot and/or force a disconnection of the Bluetooth® Low Energy[^2] connection:
 - Power your Root® coding robot off by pressing and holding the robot’s yellow button (otherwise referred to as its “nose”) for three seconds until its LED lights turn off.
 - Wait for about 10 seconds to allow the robot to fully shut down.
 - Power your Root® coding robot back on by pressing and holding the robot’s yellow button (otherwise referred to as its “nose”) for three seconds until its LED lights turn on. 
@@ -408,8 +406,6 @@ If your Root® coding robot is not responding as expected, you can perform a for
 
 Factory Reset:
 A traditional factory reset erases the information and settings on devices. Given that Root® coding robots do not retain any user data from previous usage, users do not need to conduct a factory reset. If you have changed the robot’s name, you may choose to rename it back to the original name of “ROOT” to simulate a factory reset.
-
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. All other trademarks mentioned are the property of their respective owners.
 
 </details>
 
@@ -440,8 +436,15 @@ Please ensure that any whiteboard surface is a proper dry-erase surface before u
 
 ## License
 
-Root Robot Docs are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+Root® Robot Documenation is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
 You should have received a [copy of the license](LICENSE.txt) along with this work. If not, see <https://creativecommons.org/licenses/by-nc/4.0/>
 
 [![CCBYNC40](images/CCBYNC40-88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+[^1]: iRobot and Root are registered trademarks of iRobot Corporation.
+[^2]: The Bluetooth word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license.
+[^3]: Apple, App Store, iPadOS, and macOS are registered trademarks of Apple Inc.
+[^4]: Android, Google Play, Chrome, Chromebook, and ChromeOS are trademarks of Google LLC.
+[^5]: Microsoft, Edge, and Windows are registered trademarks of Microsoft Corporation in the United States and/or other countries.
+[^6]: Raspberry Pi is a trademark of Raspberry Pi Ltd.
