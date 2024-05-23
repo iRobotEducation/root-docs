@@ -1,7 +1,7 @@
 # Root® Robot Documentation
 
-The [iRobot® Root® Coding Robot](https://edu.irobot.com/root)[^1] is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
-The robots follow an open [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol)[^2] and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
+The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
+The robots follow an open [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
 Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
 
 ![Root Drawing](images/root-drawing.jpg)
@@ -82,11 +82,9 @@ Root® coding robots are designed for learners who are 6 years of age and up. Fo
 
 Yes. Root® coding robots are controlled by their companion iRobot Coding App.
 
-The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Android, Windows, Chrome OS, iOS and macOS. 
+The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
 
-The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548)[^3], [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding)[^4], or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology, such as Chrome or Edge.
-
-All other trademarks mentioned are the property of their respective owners.
+The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology, such as Chrome or Edge.
 
 </details>
 
@@ -111,8 +109,6 @@ The **iRobot Coding** app is available for free across Web, iOS, and Android dev
 
 For those interested in taking their learning to the next level, the iRobot Python Apps (BETA) provide a direct pathway to graduate from block-based coding to entirely text-based Python coding environments.
 
-Python is governed by the Python Software Foundation. All other trademarks mentioned are the property of their respective owners.
-
 </details>
 
 <details>
@@ -122,9 +118,9 @@ The Root® coding robots are designed to be used with the iRobot Coding App. The
 
 In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a [Web Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility) supported browser like Chrome or Edge. 
 
-For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol)[^2], so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
+For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol), so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
 
-Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3[^6] to drive your Root® coding robots using arrow keys.
+Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
 
 </details>
 
@@ -162,8 +158,6 @@ To connect to and control your Root® coding robot,
 - Begin coding in the Project Editor!
 
 For additional help and information on getting started, we invite you to explore the [Learning Library](https://edu.irobot.com/learning-library).
-
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license.
 
 </details>
 
@@ -209,8 +203,6 @@ If you do not receive a prompt, you may manually update the robot by completing 
 6. Press the “Pair” button and select the "ROOT BOOT" robot from the connection list. You should only see devices that are in "update” mode as connection options on this page.
 7. Press the “Update” button and wait for the update to complete.
 
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. All other trademarks mentioned are the property of their respective owners.
-
 </details>
 
 <details>
@@ -252,8 +244,6 @@ The Root® Pro coding robot is designed to only drive on flat surfaces. Its inte
 <summary><b>What type of charger do Root® coding robots require?</b></summary>
 
 For full charging speeds, Root® coding robots require a minimum 5W (5V, 1A) USB charger. We recommend always using the charging cable provided with the robot.
-
-USB-C® is a trademark of USB Implementers Forum.
 
 </details>
 
@@ -386,15 +376,13 @@ To troubleshoot this occurrence, you can manually restart the firmware update by
 
 Alternatively, you may use the iOS or Android apps. When you connect to the robot from within the app, it should detect that the robot is in "update mode" and complete the firmware update process. Please contact us with a summary of your experience if you are not able to update your robot.
 
-The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. All other trademarks mentioned are the property of their respective owners.
-
 </details>
 
 <details>
 <summary><b>How can I reset my Root® coding robot?</b></summary>
 
 Regular Reset:
-To regularly turn off your Root® coding robot and/or force a disconnection of the Bluetooth® Low Energy[^2] connection:
+To regularly turn off your Root® coding robot and/or force a disconnection of the Bluetooth® Low Energy connection:
 - Power your Root® coding robot off by pressing and holding the robot’s yellow button (otherwise referred to as its “nose”) for three seconds until its LED lights turn off.
 - Wait for about 10 seconds to allow the robot to fully shut down.
 - Power your Root® coding robot back on by pressing and holding the robot’s yellow button (otherwise referred to as its “nose”) for three seconds until its LED lights turn on. 
@@ -434,6 +422,24 @@ Please ensure that any whiteboard surface is a proper dry-erase surface before u
 
 </details>
 
+## Trademarks
+
+iRobot and Root are registered trademarks of iRobot Corporation.
+
+The Bluetooth word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license.
+
+Apple, App Store, iPadOS, and macOS are registered trademarks of Apple Inc.
+
+Android, Google Play, Chrome, Chromebook, and ChromeOS are trademarks of Google LLC.
+
+Microsoft, Edge, and Windows are registered trademarks of Microsoft Corporation in the United States and/or other countries.
+
+Python is governed by the Python Software Foundation. All other trademarks mentioned are the property of their respective owners.
+
+USB-C® is a trademark of USB Implementers Forum.
+
+Raspberry Pi is a trademark of Raspberry Pi Ltd.
+
 ## License
 
 Root® Robot Documenation is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
@@ -441,10 +447,3 @@ Root® Robot Documenation is licensed under a Creative Commons Attribution-NonCo
 You should have received a [copy of the license](LICENSE.txt) along with this work. If not, see <https://creativecommons.org/licenses/by-nc/4.0/>
 
 [![CCBYNC40](images/CCBYNC40-88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-
-[^1]: iRobot and Root are registered trademarks of iRobot Corporation.
-[^2]: The Bluetooth word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license.
-[^3]: Apple, App Store, iPadOS, and macOS are registered trademarks of Apple Inc.
-[^4]: Android, Google Play, Chrome, Chromebook, and ChromeOS are trademarks of Google LLC.
-[^5]: Microsoft, Edge, and Windows are registered trademarks of Microsoft Corporation in the United States and/or other countries.
-[^6]: Raspberry Pi is a trademark of Raspberry Pi Ltd.
