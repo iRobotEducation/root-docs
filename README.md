@@ -1,8 +1,8 @@
 # Root® Robot Documentation
 
 The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
-The robots follow an open [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
-Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
+The robots can programed using the companion iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
+Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
 
 ![Root drawing arcs with blue marker](images/root-drawing.jpg)
 
@@ -22,7 +22,7 @@ Advanced users can also use the [iRobot Education Python Web Playground](https:/
 
 ## Turning Root On/Off
 
-Press and hold the yellow button (otherwise referred to as its “nose”) until the lights turn on/off (around 4 seconds).
+To turn the Root robot on or off, press and hold the yellow button (otherwise referred to as its “nose”) until the lights turn on/off (around 4 seconds).
 
 ![Turning Root on illustration](images/root-turn-on.png)
 
@@ -30,18 +30,20 @@ If Root is not responding as expected, hold the power button for 10 seconds to f
 
 ## Charging
 
-To charge your Root robot, plug one end of the USB cable into a USB power adapter (not included) and other end into the USB-C port on the top of the robot.
-For full charging speeds, we recommend using a USB charger capable of supplying 5W (5V, 1A) or greater.
-We recommend always using the USB cable supplied with the robot.
+To charge your Root robot, plug a powered USB cable into the USB-C port on the top of the robot.
+For the quickest charging, we recommend using a USB charger capable of supplying 5W (5V, 1A) or greater.
+We also recommend always using the USB cable supplied with the robot.
 
 ![Root charging illustration](images/root-charging.png)
 
-While the robot is charging, the light will flash yellow.
+While the robot is charging, a light on top of the robot will flash yellow.
 Once the robot is fully charged, the light will stay green.
-Please note that the robot is not able to connect over Bluetooth while it is charging.
+
+> [!NOTE]
+> The robot is not able to connect over Bluetooth while it is charging.
 
 The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
-Charging through the contacts will typically be slower than through the USB-C port.
+However, charging through the contacts will typically be slower than through the USB-C port.
 
 For safety and power efficiency, please observe the following precautions:
 - Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
@@ -49,6 +51,17 @@ For safety and power efficiency, please observe the following precautions:
 - Do not cover your robot while charging.
 - Do not leave robot unattended while charging, and disconnect charging cable when robot is finished charging.
 - Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Never charge while the device is hot.
+
+## Bluetooth connection
+
+Root coding robots are controlled over a Bluetooth® Low Energy connection by a companion device, such as a laptop, tablet, phone, or Raspberry Pi.
+Root robots are available to connect over Bluetooth® whenever the robot is powered on (i.e. the eyes are on) and it not connected to another device.
+Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
+To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
+
+The companion iRobot Coding app provides graphical, hybrid, and text coding experiences for learners of all skill levels, and it is available on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), and [Web](https://code.irobot.com/) (using a Web Bluetooth compatible browser like [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge)).
+Advanced users can access even more capabilities using the downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) or in-browser Python coding experience within the [iRobot Education Python Web Playground](https://python.irobot.com/).
+All of these interfaces make use of the openly documented [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the Root robots.
 
 ## Care and Cleaning
 - Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
@@ -59,12 +72,6 @@ For safety and power efficiency, please observe the following precautions:
 (1) unplug any external connections,
 (2) hold the power button for 10 seconds to turn off the device,
 (3) press the power button to turn the device on again.
-
-## Bluetooth connection
-
-The Root robot will be available to connect using a Bluetooth® Low Energy connection whenever the robot is on (i.e. the eyes are on) and not connected to another device.
-Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
-To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
 ## Mechanical
 
