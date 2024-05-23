@@ -59,6 +59,7 @@ Root coding robots are controlled over a Bluetooth® Low Energy connection by a 
 Root robots are available to connect over Bluetooth® whenever 
 1. the robot is powered on (i.e. the eyes are on) and 
 2. it not connected to another device.
+
 Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
 To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
