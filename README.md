@@ -26,11 +26,18 @@ Advanced users can also use the [iRobot Education Python Web Playground](https:/
 
 ## Charging
 
-![Root charging illustration](images/root-charging.png)
-
-To charge Root, plug one end of the USB cable into a USB power adapter and other end of the cable into the USB-C port on the top of the Root robot.
+To charge your Root robot, plug one end of the USB cable into a USB power adapter (not provided) and other end of the cable into the USB-C port on the top of the robot.
 For full charging speeds, we recommend using a USB charger capable of supplying 5W (5V, 1A) or greater.
 We recommend always using the USB cable supplied with the robot.
+
+![Root charging illustration](images/root-charging.png)
+
+While the robot is charging, the light will flash yellow.
+Once the robot is fully charged, the light will stay green.
+Please note that the robot is not able to connect over Bluetooth while it is charging.
+
+The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
+Charging through the contacts will typically be slower than through the USB-C port.
 
 For safety and power efficiency, please observe the following precautions:
 - Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
