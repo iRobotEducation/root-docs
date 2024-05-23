@@ -25,13 +25,20 @@ Advanced users can also use the [iRobot Education Python Web Playground](https:/
 **ERASER PAD CLEANING / REPLACEMENT** (model RT1 only) - Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad and wash or replace as needed.
 
 ## Charging
-Use the supplied USB cable to charge your robot under adult supervision. The power source should be regularly examined for damage to the cord, plug, enclosure or other parts. In the event of such damage, the charger must not be used until it is repaired.
+
+![Root charging illustration](images/root-charging.png)
+
+To charge Root, plug one end of the USB cable into a USB power adapter and other end of the cable into the USB-C port on the top of the Root robot.
+For full charging speeds, we recommend using a USB charger capable of supplying 5W (5V, 1A) or greater.
+We recommend always using the USB cable supplied with the robot.
+
+For safety and power efficiency, please observe the following precautions:
+- Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
 - Do not charge near a flammable surface or material, or near a conducting surface.
+- Do not cover your robot while charging.
 - Do not leave robot unattended while charging.
 - Disconnect charging cable when robot is finished charging.
-- Never charge while the device is hot.
-- Do not cover your robot while charging.
-- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F).
+- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Never charge while the device is hot.
 
 ## Care and Cleaning
 - Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
@@ -436,7 +443,7 @@ Microsoft, Edge, and Windows are registered trademarks of Microsoft Corporation 
 
 Python is governed by the Python Software Foundation. All other trademarks mentioned are the property of their respective owners.
 
-USB-C® is a trademark of USB Implementers Forum.
+USB-C and USB Type-C are registered trademarks of USB Implementers Forum.
 
 Raspberry Pi is a trademark of Raspberry Pi Ltd.
 
