@@ -2,6 +2,7 @@
 
 The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot that teaches the basics of coding to kids of all ages and skill levels.
 The robots follow an open [Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
+Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
 
 ![Root Drawing](images/root-drawing.jpg)
 
