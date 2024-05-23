@@ -4,13 +4,9 @@ The [iRobot® Root® Coding Robot](https://edu.irobot.com/root) is a toy robot t
 The robots follow an open [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) and can programed using the iRobot Coding app on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or [Web](https://code.irobot.com/).
 Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots.
 
-![Root Drawing](images/root-drawing.jpg)
+![Root drawing arcs with blue marker](images/root-drawing.jpg)
 
 ## Instructions For Use
-
-**TURNING ROOT ON/OFF** - Press and hold the yellow button (otherwise referred to as its “nose”) until the lights turn on/off.
-
-**HARD RESET ROOT** - If Root is not responding as expected, hold the power button for 10 seconds to turn Root off.
 
 **LOW BATTERY WARNING** - If Root flashes red, then the battery is low and needs to be charged.
 
@@ -24,9 +20,17 @@ Advanced users can also use the [iRobot Education Python Web Playground](https:/
 
 **ERASER PAD CLEANING / REPLACEMENT** (model RT1 only) - Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad and wash or replace as needed.
 
+## Turning Root On/Off
+
+Press and hold the yellow button (otherwise referred to as its “nose”) until the lights turn on/off (around 4 seconds).
+
+![Turning Root on illustration](images/root-turn-on.png)
+
+If Root is not responding as expected, hold the power button for 10 seconds to force the Root robot to turn off.
+
 ## Charging
 
-To charge your Root robot, plug one end of the USB cable into a USB power adapter (not provided) and other end of the cable into the USB-C port on the top of the robot.
+To charge your Root robot, plug one end of the USB cable into a USB power adapter (not included) and other end into the USB-C port on the top of the robot.
 For full charging speeds, we recommend using a USB charger capable of supplying 5W (5V, 1A) or greater.
 We recommend always using the USB cable supplied with the robot.
 
@@ -43,8 +47,7 @@ For safety and power efficiency, please observe the following precautions:
 - Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
 - Do not charge near a flammable surface or material, or near a conducting surface.
 - Do not cover your robot while charging.
-- Do not leave robot unattended while charging.
-- Disconnect charging cable when robot is finished charging.
+- Do not leave robot unattended while charging, and disconnect charging cable when robot is finished charging.
 - Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Never charge while the device is hot.
 
 ## Care and Cleaning
@@ -56,6 +59,12 @@ For safety and power efficiency, please observe the following precautions:
 (1) unplug any external connections,
 (2) hold the power button for 10 seconds to turn off the device,
 (3) press the power button to turn the device on again.
+
+## Bluetooth connection
+
+The Root robot will be available to connect using a Bluetooth® Low Energy connection whenever the robot is on (i.e. the eyes are on) and not connected to another device.
+Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
+To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
 ## Mechanical
 
