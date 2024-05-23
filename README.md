@@ -28,6 +28,9 @@ To turn the Root robot on or off, press and hold the yellow button (otherwise re
 
 If Root is not responding as expected, hold the power button for 10 seconds to force the Root robot to turn off.
 
+> [!TIP]
+> Pressing the yellow nose button will stop the motors and tell the iRobot Coding app to stop the running project.
+
 ## Charging
 
 To charge your Root robot, plug a powered USB cable into the USB-C port on the top of the robot.
@@ -38,9 +41,7 @@ We also recommend always using the USB cable supplied with the robot.
 
 While the robot is charging, a light on top of the robot will flash yellow.
 Once the robot is fully charged, the light will stay green.
-
-> [!NOTE]
-> The robot is not able to connect over Bluetooth while it is charging.
+Please note that the robot is not able to connect over Bluetooth while it is charging.
 
 The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
 However, charging through the contacts will typically be slower than through the USB-C port.
@@ -55,13 +56,15 @@ For safety and power efficiency, please observe the following precautions:
 ## Bluetooth connection
 
 Root coding robots are controlled over a Bluetooth® Low Energy connection by a companion device, such as a laptop, tablet, phone, or Raspberry Pi.
-Root robots are available to connect over Bluetooth® whenever the robot is powered on (i.e. the eyes are on) and it not connected to another device.
+Root robots are available to connect over Bluetooth® whenever 
+1. the robot is powered on (i.e. the eyes are on) and 
+2. it not connected to another device.
 Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
 To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
 The companion iRobot Coding app provides graphical, hybrid, and text coding experiences for learners of all skill levels, and it is available on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), and [Web](https://code.irobot.com/) (using a Web Bluetooth compatible browser like [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge)).
 Advanced users can access even more capabilities using the downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) or in-browser Python coding experience within the [iRobot Education Python Web Playground](https://python.irobot.com/).
-All of these interfaces make use of the openly documented [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the Root robots.
+All of these coding interfaces implement the openly documented [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the Root robots.
 
 ## Care and Cleaning
 - Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
