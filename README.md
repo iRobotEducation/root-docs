@@ -61,6 +61,62 @@ Root has the ability to provide power to an accessory from the USB-C port. When 
 
 ## Frequently Asked Questions
 
+### About the Root® coding robots
+
+#### What are Root® coding robots?
+
+Root® coding robots, software, and curriculum teach programming and STEM fundamentals in an engaging and flexible way. They incorporate problem solving, art, math and more, with an intuitive app and versatile mobile robot to keep students engaged throughout their learning journey. Bridging the gap between K-12 education, Root® coding robots provide a continuous learning platform that advances alongside students’ abilities. For schools, this means more personalized classroom learning, better student engagement, and less money and time spent on single-purpose software and hardware.
+
+#### What age(s) are the Root® coding robots designed for?
+
+Root® coding robots are designed for learners who are 6 years of age and up. For children under the age of 6, helping hands are recommended.
+
+#### Do I need an app to control the Root® coding robots?
+
+Yes. Root® coding robots are controlled by their companion iRobot Coding App.
+
+The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Android, Windows, Chrome OS, iOS and macOS. 
+
+The iRobot Coding App can be downloaded from the Apple App Store, Google Play Store or used online at code.irobot.com. When connecting to your robot using the online Web App, please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology. 
+
+The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. All other trademarks mentioned are the property of their respective owners.
+
+#### Which model of Root® coding robot should I choose?
+
+Suitable for all skill levels, Root® coding robots require minimal setup, are packed with programmable sensors, draw on paper or vertical magnetic whiteboards, and can be expanded to do even more. There are two versions of the Root® robot series:
+- The Root® Lite coding robot (SKU: RT00020) makes it easy to bring more robots into your home or learning space for less. Designed to provide a balance of value and utility, the Root® Lite is equipped with the essential features to transform learning to code into a grand adventure. If you’re looking for a way to bring code alive through art, music, and exploration, the Root® Lite is the choice for you. It features a bright white base with a translucent top.
+- The Root® Pro coding robot (SKU: RT001) provides the ultimate interactive coding experience. From navigating flat, horizontal surfaces to vertical, magnetic whiteboards, the Root® Pro makes the most of your space while also defying gravity. In addition to all the features seen in the Root® Lite, the Root® Pro comes with a color sensor, an eraser, and a cliff sensor for even more ways to take STEM learning to the next level. It features a jet-black base with a whiteboard top.
+
+#### What programming languages do the Root® coding robots teach?
+
+Root® coding robots are controlled by their companion learn-to-code Apps. 
+
+The iRobot Coding App is available for free across Web, iOS, and Android devices. It teaches key skills by separating learning to code into 3 three (3) progressive Learning Levels. These Learning Levels are designed to scaffold how students learn to code by catering to any coding ability, from pre-readers to advanced users: 
+- Learning Level 1 uses drag-and-drop, graphical blocks to teach the fundamental logic skills of coding. No reading skills are required for this level. 
+- Learning Level 2 builds computational fluency with hybrid blocks that feature a mixture of graphics and coding script. 
+- Learning Level 3 uses full-text code to teach the structure and syntax of professional coding languages, including the powerful and intuitive Python programming language. 
+
+For those interested in taking their learning to the next level, the iRobot Python Apps (BETA) provide a direct pathway to graduate from block-based coding to entirely text-based Python coding environments.
+
+Python is governed by the Python Software Foundation. All other trademarks mentioned are the property of their respective owners.
+
+#### Can I control the Root® coding robots from other programming environments?
+
+The Root® coding robots are designed to be used with the iRobot Coding App. The iRobot Coding App is compatible with devices running most major, up-to-date operating systems, including Web, iOS, and Android.
+
+In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a Bluetooth® supported browser. 
+
+For the advanced coders out there, we've published the Root® coding robots’ Bluetooth® Low Energy (BLE) protocol, so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
+
+Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
+
+The Bluetooth® word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of such marks by iRobot is under license. Raspberry Pi® is a trademark of Raspberry Pi Trading. All other trademarks mentioned are the property of their respective owners.
+
+#### What skills will my students learn with the Root® coding robots?
+
+Our Root® coding robots are designed and piloted with educators to reduce common barriers to STEM education. Recognizing that one of the greatest challenges is finding tools that appeal to a range of ages, skill levels, and interests, Root® coding robots and accessories cater to visual, auditory, and kinesthetic learners by delivering immersive, scalable, cross-curricular learning experiences. We encourage you to visit our Learning Library for examples of multiple ways to engage with these robots.
+
+### Getting Started with the Root® coding robots
 
 ## License
 
