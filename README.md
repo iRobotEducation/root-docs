@@ -59,7 +59,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 
 ## Comparing Root Models
 
-| | **Root® Lite** | **Root® Pro** |
+| &nbsp; | **Root® Lite** | **Root® Pro** |
 | Model | RT0 | RT1 |
 | --- | --- | --- |
 | **Software Compatibility** |  | |
