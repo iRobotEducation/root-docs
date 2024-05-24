@@ -57,7 +57,7 @@ Advanced users can access even more capabilities using the downloadable [iRobot 
 All of these coding experiences implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
-## Comparing Root Models
+## Model Comparison
 
 | &nbsp; | ![Root Lite model](images/root-lite.png)<br>**Root® Lite** | ![Root Pro model](images/root-pro.png)<br>**Root® Pro** |
 | --- | --- | --- |
@@ -89,10 +89,9 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | **Actuators** | | |
 | Drive wheels | 2x | 2x |
 | Integrated magnets to drive on vertical magnetic surfaces | - | ✓ |
-| Payload capacity | 1kg (horizontal) | 1kg (horizontal) |
-| Speed | 10 cm/s | 10 cm/s |
+| Maximum speed | 10 cm/s | 10 cm/s |
 | Speaker | ✓ | ✓ |
-| RGB LED lights | 4x (light bars) | 4x (light bars) |
+| RGB light bars | 4x | 4x |
 | Marker actuator | ✓ | ✓ |
 | Actuated magnetic eraser | - | ✓ |
 | **Accessories** | | |
