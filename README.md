@@ -35,7 +35,7 @@ However, charging through the contacts will typically be slower than through the
 
 For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
 
-## Bluetooth connection
+## Bluetooth Connection
 
 Root coding robots are controlled over a Bluetooth® Low Energy connection by a companion device, such as a laptop, tablet, phone, or Raspberry Pi.
 Root robots are available to connect over Bluetooth whenever 
@@ -57,7 +57,13 @@ Advanced users can access even more capabilities using the downloadable [iRobot 
 All of these coding experiences implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
-## Instructions For Use
+## Comparing Root Models
+
+| | **Root® Lite** | **Root® Pro** |
+| Model | RT0 | RT1 |
+| --- | --- | --- |
+| **Software Compatibility** |  | |
+| Multi-level iRobot Coding apps (Web, iOS, Android) | ✓ | ✓ |
 
 ## Mechanical
 
