@@ -29,7 +29,8 @@ To turn the Root robot on or off, press and hold the yellow button (otherwise re
 If Root is not responding as expected, hold the power button for 10 seconds to force the Root robot to turn off.
 
 > [!TIP]
-> Pressing the yellow nose button will stop the motors and tell the iRobot Coding app to stop the running project.
+> The yellow nose button also acts as a "stop" button.
+> Pressing it while a program is running will immediately stop the motors and tell the iRobot Coding app to stop the project.
 
 ## Charging
 
@@ -51,21 +52,29 @@ For safety and power efficiency, please observe the following precautions:
 - Do not charge near a flammable surface or material, or near a conducting surface.
 - Do not cover your robot while charging.
 - Do not leave robot unattended while charging, and disconnect charging cable when robot is finished charging.
-- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Never charge while the device is hot.
+- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Do not charge while the device is hot.
 
 ## Bluetooth connection
 
 Root coding robots are controlled over a Bluetooth® Low Energy connection by a companion device, such as a laptop, tablet, phone, or Raspberry Pi.
-Root robots are available to connect over Bluetooth® whenever 
-1. the robot is powered on (i.e. the eyes are on) and 
+Root robots are available to connect over Bluetooth whenever 
+1. the robot is powered on (i.e. the eyes are on) 
 2. it not connected to another device.
 
 Once you connect to the robot, it will play a chime and the lights will briefly flash blue.
 To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
-The companion iRobot Coding app provides graphical, hybrid, and text coding experiences for learners of all skill levels, and it is available on [iOS](https://apps.apple.com/us/app/irobot-coding/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), and [Web](https://code.irobot.com/) (using a Web Bluetooth compatible browser like [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge)).
+To start, go to [code.irobot.com](https://code.irobot.com/) to use the iRobot Coding web app or download the iRobot Coding app from the [Apple App Store](https://apps.apple.com/app/id1524652548) or [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding).
+When connecting to your robot using the [web app](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge).
+The iRobot Coding app features three coding levels (graphical, hybrid, and text) to support learners of all skill levels.
+Once you have made a project, you can tap the robot connection button and select your robot to connect.
+Then press the play button to see your project come to life!
+
+![Root Bluetooth connection illustration](images/root-connect.png)
+
 Advanced users can access even more capabilities using the downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) or in-browser Python coding experience within the [iRobot Education Python Web Playground](https://python.irobot.com/).
 All of these coding interfaces implement the openly documented [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the Root robots.
+If you are having issues with your Bluetooth connection, please see the FAQ below.
 
 ## Care and Cleaning
 - Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
@@ -118,7 +127,7 @@ Yes. Root® coding robots are controlled by their companion iRobot Coding App.
 
 The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
 
-The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Bluetooth® Low Energy (BLE) technology, such as Chrome or Edge.
+The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as Chrome or Edge.
 
 </details>
 
@@ -153,8 +162,8 @@ The Root® coding robots are designed to be used with the iRobot Coding App. The
 In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a [Web Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility) supported browser like Chrome or Edge. 
 
 For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol), so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
-
-Please note: This requires advanced coding experience and some understanding of how BLE works. To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
+Please note: implementation of the Bluetooth protocol requires advanced coding experience and some understanding of how BLE works.
+To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
 
 </details>
 
@@ -192,6 +201,25 @@ To connect to and control your Root® coding robot,
 - Begin coding in the Project Editor!
 
 For additional help and information on getting started, we invite you to explore the [Learning Library](https://edu.irobot.com/learning-library).
+
+</details>
+
+<details>
+<summary><b>Why won’t my Root coding robot connect to my Android device?</b></summary>
+
+Many connection issues on Android devices are caused by incorrect Bluetooth permissions.
+In Android, Bluetooth permissions are often included under “Location permissions”.
+On your device, confirm that:
+1. app-level Location permissions are enabled for the iRobot Coding app
+2. device-level Location permissions turned on
+3. Bluetooth is turned on
+
+To turn on app-level Location permissions for the iRobot Coding app, long press the app icon and open the “App info” screen. 
+From there, select “Permissions” → “Location” → “Allow only while using the app”. The app should also have requested this permission the first time it is opened.
+
+To turn on device-level Location permissions, open the “Settings” app and select “Location” → “Use location”
+
+To turn on Bluetooth, swipe from the top of the screen to bring up the Quick Settings menu and tap the Bluetooth icon. Alternatively, open the “Settings” app and select “Connected devices” → “Connection preferences” → “Bluetooth” → “Use Bluetooth”.
 
 </details>
 
