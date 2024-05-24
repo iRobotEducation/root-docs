@@ -33,7 +33,7 @@ Please note that the robot is not able to connect over Bluetooth while it is cha
 The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
 However, charging through the contacts will typically be slower than through the USB-C port.
 
-For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf)
+For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
 
 ## Bluetooth connection
 
@@ -46,7 +46,7 @@ Once you connect to the robot, it will play a chime and the lights will briefly 
 To disconnect, trigger a disconnection from the app or turn off the robot by holding down the yellow nose button.
 
 To start, go to [code.irobot.com](https://code.irobot.com/) to use the iRobot Coding web app or download the iRobot Coding app from the [Apple App Store](https://apps.apple.com/app/id1524652548) or [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding).
-When connecting to your robot using the [web app](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge).
+To connect to robots when using the [web app](https://code.irobot.com/), you must use a browser that supports Web Bluetooth, such as [Chrome](https://www.google.com/chrome/) or [Edge](https://www.microsoft.com/edge).
 The iRobot Coding app features three coding levels (graphical, hybrid, and text) to support learners of all skill levels.
 Once you have made a project, you can tap the robot connection button and select your robot to connect.
 Then press the play button to see your project come to life!
@@ -54,7 +54,7 @@ Then press the play button to see your project come to life!
 ![Root Bluetooth connection illustration](images/root-connect.png)
 
 Advanced users can access even more capabilities using the downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) or in-browser Python coding experience within the [iRobot Education Python Web Playground](https://python.irobot.com/).
-All of these coding interfaces implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
+All of these coding experiences implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
 ## Care and Cleaning
