@@ -59,9 +59,9 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 
 ## Comparing Root Models
 
-| &nbsp; | **Root® Lite** | **Root® Pro** |
+| &nbsp; | ![Root Lite model](images/root-lite.png)<br>**Root® Lite** | ![Root Pro model](images/root-pro.png)<br>**Root® Pro** |
 | --- | --- | --- |
-| Model | RT0 | RT1 |
+| Model number | RT0 | RT1 |
 | **Software Compatibility** | | |
 | Multi-level iRobot Coding apps (Web, iOS, Android) | ✓ | ✓ |
 | Python Web Playground (Web) | ✓ | ✓ |
@@ -73,7 +73,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | **Power** | | |
 | Battery | Integrated 9Wh Li-Ion  | Integrated 9Wh Li-Ion |
 | Charging | USB-C cable (included) or charging contacts | USB-C cable (included) or charging contacts |
-| Output | USB-C (0.2A at regulated 5V) | USB-C (0.2A at regulated 5V) |
+| Output | USB-C (0.2A at 5V) | USB-C (0.2A at 5V) |
 | **Sensors** | | |
 | Power button | ✓ | ✓ |
 | Capacitive touch buttons | 4x | 4x |
@@ -88,7 +88,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | Battery level monitor | ✓ | ✓ |
 | **Actuators** | | |
 | Drive wheels | 2x | 2x |
-| Magnets to drive on vertical magnetic surfaces | - | ✓ (integrated) |
+| Integrated magnets to drive on vertical magnetic surfaces | - | ✓ |
 | Payload capacity | 1kg (horizontal) | 1kg (horizontal) |
 | Speed | 10 cm/s | 10 cm/s |
 | Speaker | ✓ | ✓ |
@@ -98,7 +98,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | **Accessories** | | |
 | Included accessories | 1x Fold-up whiteboard grid<br>1x Green dry-erase marker<br>1x Reusable sticker sheet<br>1x Microfiber eraser cloth | 1x Fold-up whiteboard grid<br>1x Green dry-erase marker<br>1x Blue dry-erase marker<br>1x Reusable sticker sheet<br>1x Microfiber eraser cloth |
 | Compatible with Root Brick Top | ✓ | ✓ |
-| Accessory mounting options | 10x Magnetic attachment points | 10x Magnetic attachment points |
+| Magnetic attachment points for accessories | 10x | 10x |
 | Faceplate | Transparent | Whiteboard |
 
 ## Mechanical
