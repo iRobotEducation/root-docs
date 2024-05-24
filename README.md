@@ -49,13 +49,6 @@ However, charging through the contacts will typically be slower than through the
 
 For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf)
 
-For safety and power efficiency, please observe the following precautions:
-- Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
-- Do not charge near a flammable surface or material, or near a conducting surface.
-- Do not cover your robot while charging.
-- Do not leave robot unattended while charging, and disconnect charging cable when robot is finished charging.
-- Charge at temperatures between 0 and 32 degrees C (32-90 degrees F). Do not charge while the device is hot.
-
 ## Bluetooth connection
 
 Root coding robots are controlled over a Bluetooth® Low Energy connection by a companion device, such as a laptop, tablet, phone, or Raspberry Pi.
