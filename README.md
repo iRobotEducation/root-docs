@@ -47,6 +47,8 @@ Please note that the robot is not able to connect over Bluetooth while it is cha
 The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
 However, charging through the contacts will typically be slower than through the USB-C port.
 
+For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf)
+
 For safety and power efficiency, please observe the following precautions:
 - Regularly examine for damage to the cord, connectors, plug, enclosure, or other parts, and stop use in the event of damage.
 - Do not charge near a flammable surface or material, or near a conducting surface.
@@ -73,7 +75,7 @@ Then press the play button to see your project come to life!
 ![Root Bluetooth connection illustration](images/root-connect.png)
 
 Advanced users can access even more capabilities using the downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) or in-browser Python coding experience within the [iRobot Education Python Web Playground](https://python.irobot.com/).
-All of these coding interfaces implement the openly documented [Bluetooth® Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the Root robots.
+All of these coding interfaces implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
 ## Care and Cleaning
