@@ -60,8 +60,8 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 ## Comparing Root Models
 
 | &nbsp; | **Root® Lite** | **Root® Pro** |
-| Model | RT0 | RT1 |
 | --- | --- | --- |
+| Model | RT0 | RT1 |
 | **Software Compatibility** |  | |
 | Multi-level iRobot Coding apps (Web, iOS, Android) | ✓ | ✓ |
 
