@@ -62,8 +62,44 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | &nbsp; | **Root® Lite** | **Root® Pro** |
 | --- | --- | --- |
 | Model | RT0 | RT1 |
-| **Software Compatibility** |  | |
+| **Software Compatibility** | | |
 | Multi-level iRobot Coding apps (Web, iOS, Android) | ✓ | ✓ |
+| Python Web Playground (Web) | ✓ | ✓ |
+| Downloadable Python 3 SDK (macOS, Windows, Linux) | ✓ | ✓ |
+| **Connectivity** | | |
+| Wireless | Bluetooth® Low Energy | Bluetooth® Low Energy |
+| Wired | USB-C (Serial) | USB-C (Serial) |
+| Firmware Updates | Bluetooth® Low Energy | Bluetooth® Low Energy |
+| **Power** | | |
+| Battery | Integrated 9Wh Li-Ion  | Integrated 9Wh Li-Ion |
+| Charging | USB-C cable (included) or charging contacts | USB-C cable (included) or charging contacts |
+| Output | USB-C (0.2A at regulated 5V) | USB-C (0.2A at regulated 5V) |
+| **Sensors** | | |
+| Power button | ✓ | ✓ |
+| Capacitive touch buttons | 4x | 4x |
+| Bumper zones | 2x | 2x |
+| Wheel encoders | 2x | 2x |
+| Motor current feedback | ✓ | ✓ |
+| Ambient light sensors | 2x | 2x |
+| Cliff sensors | - | 1x |
+| RGB color sensors | - | 32x |
+| 3D gyroscope | ✓ | ✓ |
+| 3D accelerometer | ✓ | ✓ |
+| Battery level monitor | ✓ | ✓ |
+| **Actuators** | | |
+| Drive wheels | 2x | 2x |
+| Magnets to drive on vertical magnetic surfaces | - | ✓ (integrated) |
+| Payload capacity | 1kg (horizontal) | 1kg (horizontal) |
+| Speed | 10 cm/s | 10 cm/s |
+| Speaker | ✓ | ✓ |
+| RGB LED lights | 4x (light bars) | 4x (light bars) |
+| Marker actuator | ✓ | ✓ |
+| Actuated magnetic eraser | - | ✓ |
+| **Accessories** | | |
+| Included accessories | 1x Fold-up whiteboard grid<br>1x Green dry-erase marker<br>1x Reusable sticker sheet<br>1x Microfiber eraser cloth | 1x Fold-up whiteboard grid<br>1x Green dry-erase marker<br>1x Blue dry-erase marker<br>1x Reusable sticker sheet<br>1x Microfiber eraser cloth |
+| Compatible with Root Brick Top | ✓ | ✓ |
+| Accessory mounting options | 10x Magnetic attachment points | 10x Magnetic attachment points |
+| Faceplate | Transparent | Whiteboard |
 
 ## Mechanical
 
