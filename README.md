@@ -57,29 +57,7 @@ Advanced users can access even more capabilities using the downloadable [iRobot 
 All of these coding experiences implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
-## Care and Cleaning
-- Do not expose robot to high temperature conditions such as direct sunlight or hot car interiors. For best results use indoors only. Never expose Root to water.
-- Root has no serviceable parts though it is important to keep the sensors clean for optimal performance.
-- To clean sensors, lightly wipe top and bottom with a lint-free cloth to remove smudges or debris.
-- Do not attempt to clean your robot with solvent, denatured alcohol, or flammable liquid. Doing so may damage your robot, make your robot inoperable, or cause a fire.
-- Electrostatic discharge may affect the performance of this product and cause malfunction. Please reset the device using the following steps:
-(1) unplug any external connections,
-(2) hold the power button for 10 seconds to turn off the device,
-(3) press the power button to turn the device on again.
-
 ## Instructions For Use
-
-**LOW BATTERY WARNING** - If Root flashes red, then the battery is low and needs to be charged.
-
-**CLICKING NOISE** - Root’s drive wheels have internal clutches to prevent damage to the motors if Root is pushed or gets stuck.
-
-**PEN / MARKER COMPATIBILITY** - Root’s marker holder will work with many standard sizes. The marker or pen should not touch the surface underneath until Root lowers the marker holder.
-
-**WHITEBOARD COMPATIBILITY** (model RT1 only) - Root will operate on vertical whiteboards that are magnetic. Root will not operate on magnetic whiteboard paint.
-
-**ERASER FUNCTION** (model RT1 only) - Root’s eraser will only erase dry erase marker on magnetic whiteboards.
-
-**ERASER PAD CLEANING / REPLACEMENT** (model RT1 only) - Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad and wash or replace as needed.
 
 ## Mechanical
 
@@ -344,7 +322,7 @@ If your robot is still not charging after following the above instructions, plea
 <details>
 <summary><b>Why won’t my Root® Pro coding robot stick to my whiteboard?</b></summary>
 
-Please note that the Root® Pro coding robot is the only model designed to attach to and navigate magnetic whiteboard surfaces. On some whiteboards with weak magnetic backing, the Root® Pro coding robot might slip. Other whiteboards may not have any magnetic backing at all. Please note that you can still use a non-magnetic whiteboard with either model of the Root® coding robot model as long as the robot is placed on a flat surface, such as a table or the floor.
+Please note that the Root® Pro coding robot (with the white top) is the only model designed to attach to and navigate magnetic whiteboard surfaces. On some whiteboards with weak magnetic backing, the Root® Pro coding robot might slip. Other whiteboards may not have any magnetic backing at all. Root will also not stick to magnetic whiteboard paint. Please note that you can still use a magnetic or non-magnetic whiteboard with either model of the Root® coding robot model as long as the robot is placed on a horizontal surface, such as a table or the floor.
 
 </details>
 
@@ -358,7 +336,14 @@ If your Root® coding robots won't draw on a flat surface, such as the fold-out 
 <details>
 <summary><b>Why won’t my Root® Pro coding robot erase?</b></summary>
 
-The Root® Pro coding robot's eraser works best on magnetic whiteboard surfaces. The eraser has embedded magnets to hold it firmly against the smooth surface of magnetic whiteboard so that it can erase. On the included fold-up whiteboard, the robot is not always able to press down hard enough to erase and the eraser pad can get caught on the folds, pushing the robot off course.
+The Root® Pro coding robot's eraser is designed to work best on magnetic whiteboard surfaces. The eraser has an embedded magnet to hold it firmly against the smooth surface of magnetic whiteboard so that it can erase. On the included fold-up whiteboard, the robot is not always able to press down hard enough to erase and the eraser pad can get caught on the folds, pushing the robot off course.
+
+</details>
+
+<details>
+<summary><b>How do I clean the eraser pad on my Root Pro?</b></summary>
+
+Root’s eraser pad is held in place with a hook-and-loop fastener. To service, simply peel off the eraser pad, wash and dry it, and replace it on the robot.
 
 </details>
 
@@ -373,6 +358,13 @@ If your Root® coding robot is not driving well, please check if the wheels are 
 <summary><b>Why is my Root® coding robot turning to the left or right when it should be driving straight?</b></summary>
 
 If your Root® Pro coding robot is driving vertically on a whiteboard, this may be normal behavior while the robot compensates for gravity. If either your Root® Pro or Root® Lite robot has problems driving on a flat surface, such as a table or the floor, then there may be something wrong with your robot. Please contact us for assistance.
+
+</details>
+
+<details>
+<summary><b>Why do the wheels on my Root robot make a clicking sound?</b></summary>
+
+Root’s drive wheels have internal clutches to prevent damage to the motors if Root is pushed or gets stuck. The clicking sound is the clutch being activated when the there is too big of a force between the wheel and the motor. If it keeps happening, make sure that nothing is blocking the wheel and preventing it from turning.
 
 </details>
 
