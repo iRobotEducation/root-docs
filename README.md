@@ -63,9 +63,9 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | --- | --- | --- |
 | Model number | RT0 | RT1 |
 | **Software Compatibility** | | |
-| Multi-level iRobot Coding apps (Web, iOS, Android) | ✓ | ✓ |
-| Python Web Playground (Web) | ✓ | ✓ |
-| Downloadable Python 3 SDK (macOS, Windows, Linux) | ✓ | ✓ |
+| Multi-level iRobot Coding apps ([Web](https://code.irobot.com/), [iOS](https://apps.apple.com/app/id1524652548), [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding)) | ✓ | ✓ |
+| Python Web Playground ([Web](https://python.irobot.com/)) | ✓ | ✓ |
+| Downloadable Python 3 SDK ([macOS, Windows, Linux](https://github.com/iRobotEducation/irobot-edu-python-sdk)) | ✓ | ✓ |
 | **Connectivity** | | |
 | Wireless | Bluetooth® Low Energy | Bluetooth® Low Energy |
 | Wired | USB-C (Serial) | USB-C (Serial) |
