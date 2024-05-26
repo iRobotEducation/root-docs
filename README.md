@@ -57,6 +57,11 @@ Advanced users can access even more capabilities using the downloadable [iRobot 
 All of these coding experiences implement the openly documented [Root Bluetooth Low Energy protocol](https://github.com/iRobotEducation/root-robot-ble-protocol) used by the robots.
 If you are having issues with your Bluetooth connection, please see the FAQ below.
 
+> [!TIP]
+> If you have multiple Root robots, give each one a unique name to make it easier to conenct to the right one.
+> Once you have connected to a robot, simply tap the connection button again and select "Rename".
+> When using the iRobot Coding app on iOS or Android, you can also touch the top of the robot or press the bumpers to highlight those areas on your robot in the Bluetooth connection window.
+
 ## Model Comparison
 
 | &nbsp; | ![Root Lite model](images/root-lite.png)<br>**Root® Lite** | ![Root Pro model](images/root-pro.png)<br>**Root® Pro** |
