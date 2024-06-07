@@ -16,7 +16,7 @@ If Root is not responding as expected, hold the power button for 10 seconds to f
 
 > [!TIP]
 > The yellow nose button also acts as a "stop" button.
-> Pressing it while a program is running will immediately stop the motors and tell the iRobot Coding app to stop the project.
+> Pressing it while a program is running will immediately stop the motors and tell the iRobot Coding app to stop the running project.
 
 ## Charging
 
@@ -30,10 +30,11 @@ While the robot is charging, a light on top of the robot will flash yellow.
 Once the robot is fully charged, the light will stay green.
 Please note that the robot is not able to connect over Bluetooth while it is charging.
 
-The Root robot can also be charged by applying 6.5V-9V across the two charging contacts on the rear of the robot.
-However, charging through the contacts will typically be slower than through the USB-C port.
+The Root robot can also be charged by applying between 6.5V and 9V across the two metal charging contacts on the rear of the robot.
+The robot has a special circuit to make the charging contacts reversible, so it does not matter which charging contact has the higher voltage.
+However, please note that the USB-C port supports higher charging currents and typically results in faster charging.
 
-For additional information, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
+For additional information about charging, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
 
 ## Bluetooth Connection
 
@@ -86,7 +87,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | Wheel encoders | 2x | 2x |
 | Motor current feedback | ✓ | ✓ |
 | Ambient light sensors | 2x | 2x |
-| Cliff sensors | - | 1x |
+| Cliff sensor | - | 1x |
 | RGB color sensors | - | 32x |
 | 3D gyroscope | ✓ | ✓ |
 | 3D accelerometer | ✓ | ✓ |
@@ -128,34 +129,50 @@ Root has the ability to provide power to an accessory from the USB-C port. When 
 <details>
 <summary><b>What are Root® coding robots?</b></summary>
 
-Root® coding robots, software, and curriculum teach programming and STEM fundamentals in an engaging and flexible way. They incorporate problem solving, art, math and more, with an intuitive app and versatile mobile robot to keep students engaged throughout their learning journey. Bridging the gap between K-12 education, Root® coding robots provide a continuous learning platform that advances alongside students’ abilities. For schools, this means more personalized classroom learning, better student engagement, and less money and time spent on single-purpose software and hardware.
+Root® coding robots, software, and curriculum teach programming and STEM fundamentals in an engaging and flexible way.
+They incorporate problem solving, art, math and more, with an intuitive app and versatile mobile robot to keep students engaged throughout their learning journey.
+Bridging the gap between K-12 education, Root® coding robots provide a continuous learning platform that advances alongside students’ abilities.
+For schools, this means more personalized classroom learning, better student engagement, and less money and time spent on single-purpose software and hardware.
 
 </details>
 
 <details>
 <summary><b>What age(s) are the Root® coding robots designed for?</b></summary>
 
-Root® coding robots are designed for learners who are 6 years of age and up. For children under the age of 6, helping hands are recommended.
+Root® coding robots are designed for learners who are 6 years of age and up.
+For children under the age of 6, helping hands are recommended.
 
 </details>
 
 <details>
 <summary><b>Do I need an app to control the Root® coding robots?</b></summary>
 
-Yes. Root® coding robots are controlled by their companion iRobot Coding App.
+Yes. Root® coding robots are controlled over Bluetooth by their companion iRobot Coding app.
 
-The iRobot Coding App is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
+The iRobot Coding app is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
 
-The iRobot Coding App can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/). When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as Chrome or Edge.
+The iRobot Coding app can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/).
+When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as Chrome or Edge.
+
+Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots. 
 
 </details>
 
 <details>
 <summary><b>Which model of Root® coding robot should I choose?</b></summary>
 
-Suitable for all skill levels, Root® coding robots require minimal setup, are packed with programmable sensors, draw on paper or vertical magnetic whiteboards, and can be expanded to do even more. There are two versions of the Root® robot series:
-- The Root® Lite coding robot (SKU: RT00020) makes it easy to bring more robots into your home or learning space for less. Designed to provide a balance of value and utility, the Root® Lite is equipped with the essential features to transform learning to code into a grand adventure. If you’re looking for a way to bring code alive through art, music, and exploration, the Root® Lite is the choice for you. It features a bright white base with a translucent top.
-- The Root® Pro coding robot (SKU: RT001) provides the ultimate interactive coding experience. From navigating flat, horizontal surfaces to vertical, magnetic whiteboards, the Root® Pro makes the most of your space while also defying gravity. In addition to all the features seen in the Root® Lite, the Root® Pro comes with a color sensor, an eraser, and a cliff sensor for even more ways to take STEM learning to the next level. It features a jet-black base with a whiteboard top.
+All Root® coding robot models are suitable for all skill levels, require minimal setup, are packed with programmable sensors, draw on paper or an included fold-out whiteboard, and can be expanded to do even more.
+There are two models of Root® robots:
+- The Root® Lite coding robot (Model: RT0) makes it easy to bring more robots into your home or learning space for less.
+Designed to provide a balance of value and utility, the Root® Lite is equipped with the essential features to transform learning to code into a grand adventure.
+If you’re looking for a way to bring code alive through art, music, and exploration, the Root® Lite is the choice for you.
+It features bright white bumpers with a translucent top.
+- The Root® Pro coding robot (Model: RT1) provides the ultimate interactive coding experience.
+From navigating flat, horizontal surfaces to vertical, magnetic whiteboards, the Root® Pro makes the most of your space while also defying gravity.
+In addition to all the features seen in the Root® Lite, the Root® Pro comes with a color sensor, an eraser, and a cliff sensor for even more ways to take STEM learning to the next level.
+It features jet-black bumpers with a whiteboard top.
+
+A detailed breakdown of the features of each model can be found in the [model comparison chart](#model-comparison).
 
 </details>
 
