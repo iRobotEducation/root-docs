@@ -108,6 +108,8 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 
 ## Mechanical
 
+Root is a differential drive robot with two driven wheels and four slide points to limit tipping.
+
 ### Top Magnets
 
 Root has ten small magnets underneath the top surface to help with attaching accessories. These 5mm-diameter magnets are in a 32mm x 32mm grid as shown in the image below. Each magnet has the North pole facing up. You can use these to hold accessories in place by gluing magnets to your accessory that line up with the magnets in Root. (*Make sure the magnets are facing the right direction first!*)
@@ -145,16 +147,55 @@ For children under the age of 6, helping hands are recommended.
 </details>
 
 <details>
-<summary><b>Do I need an app to control the Root® coding robots?</b></summary>
+<summary><b>What skills will my students learn with the Root® coding robots?</b></summary>
 
-Yes. Root® coding robots are controlled over Bluetooth by their companion iRobot Coding app.
+Root® robots are designed to teach sequencing, coding, math, science, robotics, problem solving, and more to students of all skills and backgrounds.
+From the very beginning, these tools were designed and piloted with educators to appeal to a wide range of ages, skill levels, and interests to deliver immersive, scalable, and cross-curricular learning experiences.
+We encourage you to visit our [Learning Library](https://edu.irobot.com/learning-library) for many examples of ways to engage with these robots.
 
-The iRobot Coding app is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
+</details>
 
-The iRobot Coding app can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/).
-When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as Chrome or Edge.
+<details>
+<summary><b>Do I need previous coding or robotics experience to use Root® coding robots?</b></summary>
 
-Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots. 
+No!
+Root® coding robots are designed to be exceptionally easy to get started and learn!
+The robots work right out of the box, without requiring any assembly.
+Simply turn on the robot, connect to it from the iRobot Coding app, and use one of the three intuitive programming levels to get started.
+Check out the [Learning Library](https://edu.irobot.com/learning-library) for examples of ways to learn with with these robots.
+
+</details>
+
+<details>
+<summary><b>What programming languages do the Root® coding robots teach?</b></summary>
+
+Root® coding robots are controlled by the companion learn-to-code iRobot Coding apps, which feature both an easy-to-learn block coding language and Python.
+The iRobot Coding app is available for free across [Web](https://code.irobot.com/), [iOS](https://apps.apple.com/app/id1524652548), and [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding) devices.
+It teaches key skills by separating learning to code into three (3) progressive Learning Levels.
+These Learning Levels are designed to scaffold how students learn to code by catering to any coding ability, from pre-readers to advanced users: 
+- **Learning Level 1** uses drag-and-drop, graphical blocks to teach sequencing and the fundamental logic skills.
+The number of available blocks is purposefully limited and no reading skills are required for this level. 
+- **Learning Level 2** builds computational fluency with hybrid blocks that feature a mixture of graphics and coding script.
+- **Learning Level 3** uses full-text code to teach the structure and syntax of professional coding languages, using the powerful and intuitive Python programming language. 
+
+For those interested in taking their learning to the next level, the iRobot Python apps (BETA) provide a direct pathway to graduate from block-based coding to entirely text-based Python coding environments.
+The zero-installation Python coding environment known as the [iRobot Education Python Web Playground](https://python.irobot.com/) or a downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) let you unlock even more capabilies and learning.
+
+</details>
+
+<details>
+<summary><b>Can I control the Root® coding robots from other programming environments?</b></summary>
+
+The Root® coding robots are designed to be used with the companion iRobot Coding app.
+The iRobot Coding app is compatible with devices running most major, up-to-date operating systems, including [Web](https://code.irobot.com/), [iOS](https://apps.apple.com/app/id1524652548), and [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding).
+In order to connect your Root® coding robots to the iRobot Coding app, your device requires Bluetooth® Low Energy (BLE) and (for the web app) a [Web Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility) supported browser like Chrome or Edge. 
+For experienced users, there are also the iRobot Python apps (BETA), which include a zero-installation Python coding environment on the web known as the [iRobot Education Python Web Playground](https://python.irobot.com/) or a downloadable [Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk).
+
+Advanced developers can create their own libraries and projects that work with Root by utilizing the publically avilable [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol) usedy by the Root robots.
+The protocol documentation should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
+
+Please note: implementation of the Bluetooth protocol requires advanced coding experience and some understanding of how BLE works.
+To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
 
 </details>
 
@@ -177,36 +218,16 @@ A detailed breakdown of the features of each model can be found in the [model co
 </details>
 
 <details>
-<summary><b>What programming languages do the Root® coding robots teach?</b></summary>
+<summary><b>Do I need an app to control the Root® coding robots?</b></summary>
 
-Root® coding robots are controlled by their companion learn-to-code Apps. 
+Yes. Root® coding robots are controlled over Bluetooth using the companion iRobot Coding app.
 
-The **iRobot Coding** app is available for free across Web, iOS, and Android devices. It teaches key skills by separating learning to code into three (3) progressive Learning Levels. These Learning Levels are designed to scaffold how students learn to code by catering to any coding ability, from pre-readers to advanced users: 
-- **Learning Level 1** uses drag-and-drop, graphical blocks to teach the fundamental logic skills of coding. No reading skills are required for this level. 
-- **Learning Level 2** builds computational fluency with hybrid blocks that feature a mixture of graphics and coding script. 
-- **Learning Level 3** uses full-text code to teach the structure and syntax of professional coding languages, including the powerful and intuitive Python programming language. 
+The iRobot Coding app is compatible with Bluetooth® Low Energy (BLE) devices running most major, up-to-date operating systems, including Windows, macOS, ChromeOS, Linux, iOS, iPadOS, and Android.
 
-For those interested in taking their learning to the next level, the iRobot Python Apps (BETA) provide a direct pathway to graduate from block-based coding to entirely text-based Python coding environments.
+The iRobot Coding app can be downloaded from the [Apple App Store](https://apps.apple.com/app/id1524652548), [Google Play Store](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding), or used online at [code.irobot.com](https://code.irobot.com/).
+When connecting to your robot using the online [Web App](https://code.irobot.com/), please also ensure you are using a browser that supports Web Bluetooth, such as Chrome or Edge.
 
-</details>
-
-<details>
-<summary><b>Can I control the Root® coding robots from other programming environments?</b></summary>
-
-The Root® coding robots are designed to be used with the iRobot Coding App. The iRobot Coding App is compatible with devices running most major, up-to-date operating systems, including [Web](https://code.irobot.com/), [iOS](https://apps.apple.com/app/id1524652548), and [Android](https://play.google.com/store/apps/details?id=com.rootrobotics.rootcoding).
-
-In order to connect your Root® coding robots to the iRobot Coding App, your device requires Bluetooth® Low Energy (BLE) and a [Web Bluetooth](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility) supported browser like Chrome or Edge. 
-
-For the advanced coders out there, we've published the Root® coding robots’ [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol), so that experienced makers can start creating their own advanced projects with the robot. This link should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
-Please note: implementation of the Bluetooth protocol requires advanced coding experience and some understanding of how BLE works.
-To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
-
-</details>
-
-<details>
-<summary><b>What skills will my students learn with the Root® coding robots?</b></summary>
-
-Our Root® coding robots are designed and piloted with educators to reduce common barriers to STEM education. Recognizing that one of the greatest challenges is finding tools that appeal to a range of ages, skill levels, and interests, Root® coding robots and accessories cater to visual, auditory, and kinesthetic learners by delivering immersive, scalable, cross-curricular learning experiences. We encourage you to visit our [Learning Library](https://edu.irobot.com/learning-library) for examples of multiple ways to engage with these robots.
+Advanced users can also use the [iRobot Education Python Web Playground](https://python.irobot.com/) or downloadable [iRobot Education Python 3 SDK](https://github.com/iRobotEducation/irobot-edu-python-sdk) for even more control over the robots. 
 
 </details>
 
@@ -241,28 +262,10 @@ For additional help and information on getting started, we invite you to explore
 </details>
 
 <details>
-<summary><b>Why won’t my Root coding robot connect to my Android device?</b></summary>
-
-Many connection issues on Android devices are caused by incorrect Bluetooth permissions.
-In Android, Bluetooth permissions are often included under “Location permissions”.
-On your device, confirm that:
-1. app-level Location permissions are enabled for the iRobot Coding app
-2. device-level Location permissions turned on
-3. Bluetooth is turned on
-
-To turn on app-level Location permissions for the iRobot Coding app, long press the app icon and open the “App info” screen. 
-From there, select “Permissions” → “Location” → “Allow only while using the app”. The app should also have requested this permission the first time it is opened.
-
-To turn on device-level Location permissions, open the “Settings” app and select “Location” → “Use location”
-
-To turn on Bluetooth, swipe from the top of the screen to bring up the Quick Settings menu and tap the Bluetooth icon. Alternatively, open the “Settings” app and select “Connected devices” → “Connection preferences” → “Bluetooth” → “Use Bluetooth”.
-
-</details>
-
-<details>
 <summary><b>Are there any resources to get started with the Root® coding robot?</b></summary>
 
-Yes! Please visit our [Learning Library](https://edu.irobot.com/learning-library) for an abundance of resources to help you get started including starter tutorials, projects, and videos.
+Yes!
+Please visit our [Learning Library](https://edu.irobot.com/learning-library) for an abundance of resources to help you get started including starter tutorials, projects, and videos.
 Our [Learning Library](https://edu.irobot.com/learning-library) provides an expansive collection of lessons that help teachers and integrate coding and robotics into the curriculum by exploring a wide range of topics and genres.
 - Beginner content includes a curated assortment of free activities, videos, sample coding projects, and DIY coding competition kits.
 - Access to premium curriculum modeled after educational standards (such as CSTA) and self-guided or custom professional development trainings are also available for purchase.
@@ -272,7 +275,9 @@ Our [Learning Library](https://edu.irobot.com/learning-library) provides an expa
 <details>
 <summary><b>Is there curriculum available to help me teach with the Root® coding robot?</b></summary>
 
-Yes. Our made-for-classrooms curriculum is designed to fit seamlessly into your school year with over 75 scaffolded, hands-on, project-based activities. This curriculum is specifically mapped to several international standards sets, such as the US Common Core Standards, CSTA, UK Key Stages, and more.
+Yes.
+Our made-for-classrooms curriculum is designed to fit seamlessly into your school year with over 75 scaffolded, hands-on, project-based activities.
+This curriculum is specifically mapped to several international standards sets, such as the US Common Core Standards, CSTA, UK Key Stages, and more.
 
 Each lesson includes 40-60+ minutes of outlined instruction with multiple engagement points, such as:
 - Class discussion
@@ -280,7 +285,9 @@ Each lesson includes 40-60+ minutes of outlined instruction with multiple engage
 - Reflection activity
 - Going further extensions
 
-By utilizing the multiple programming levels in the iRobot Coding App, each lesson provides multiple opportunities for every student to feel appropriately engaged and academically challenged, regardless of their coding background. This integrated scaffolding approach with the App and robot promotes a cohesive and inclusive classroom experience. Additionally, embedded math, ELA, science, and arts connections create cohesive, school-wide learning opportunities.
+By utilizing the multiple programming levels in the iRobot Coding App, each lesson provides multiple opportunities for every student to feel appropriately engaged and academically challenged, regardless of their coding background.
+This integrated scaffolding approach with the App and robot promotes a cohesive and inclusive classroom experience.
+Additionally, embedded math, ELA, science, and arts connections create cohesive, school-wide learning opportunities.
 
 The curriculum is available in a digital format that allows you to conveniently print a copy for each member of your teaching team and review your lesson plans inside or outside of the classroom. With prepared lessons already designed to meet their required learning objectives, teachers can spend more time teaching and less time planning.
 
@@ -458,6 +465,27 @@ The rear LED on the Root® coding robot will flash red when the battery is getti
 <summary><b>Why is my Root® Pro coding robot moving slowly and making additional movements on the whiteboard?</b></summary>
 
 If your Root® Pro coding robot is moving slowly and making additional movements on a vertical magnetic whiteboard, it is likely because the robot is using its sensors and corrective algorithms to compensate for gravity and draw the most accurate shapes possible. 
+
+</details>
+
+### Troubleshooting
+
+<details>
+<summary><b>Why won’t my Root coding robot connect to my Android device?</b></summary>
+
+Many connection issues on Android devices are caused by incorrect Bluetooth permissions.
+In Android, Bluetooth permissions are often included under “Location permissions”.
+On your device, confirm that:
+1. app-level Location permissions are enabled for the iRobot Coding app
+2. device-level Location permissions turned on
+3. Bluetooth is turned on
+
+To turn on app-level Location permissions for the iRobot Coding app, long press the app icon and open the “App info” screen. 
+From there, select “Permissions” → “Location” → “Allow only while using the app”. The app should also have requested this permission the first time it is opened.
+
+To turn on device-level Location permissions, open the “Settings” app and select “Location” → “Use location”
+
+To turn on Bluetooth, swipe from the top of the screen to bring up the Quick Settings menu and tap the Bluetooth icon. Alternatively, open the “Settings” app and select “Connected devices” → “Connection preferences” → “Bluetooth” → “Use Bluetooth”.
 
 </details>
 
