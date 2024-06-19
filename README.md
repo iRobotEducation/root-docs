@@ -34,6 +34,10 @@ The Root robot can also be charged by applying between 6.5V and 9V across the tw
 The robot has a special circuit to make the charging contacts reversible, so it does not matter which charging contact has the higher voltage.
 However, please note that the USB-C port supports higher charging currents and typically results in faster charging.
 
+> [!WARNING]
+> Do not apply more than 9 Volts across the charging contacts.
+> Excessive voltage can damage the robot.
+
 For additional information about charging, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
 
 ## Bluetooth Connection
