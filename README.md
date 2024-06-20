@@ -116,9 +116,10 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 
 Root is a differential drive robot with two driven wheels and four slide points to limit tipping.
 When both wheels turn the same speed in the same direction, the robot will drive straight.
-When the wheels turn different speeds, the robot will turn or arc.
+When the wheels turn different speeds, the robot will turn/arc.
 When the wheels are the same speed in opposite directions, the robot will turn in place.
-Each wheel is limited to 10 cm/s.
+Each wheel uses encoders to maintain the correct speed and measure the distance traveled.
+The maximum speed is 10 cm/s.
 
 ### Features
 
