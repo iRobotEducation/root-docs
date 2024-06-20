@@ -125,7 +125,7 @@ The maximum speed is 10 cm/s.
 
 ![3D drawing of Root with numbered features](images/root-features-top.svg)
 
-1. USB-C charging port
+1. USB-C port for charging, 5V power out, and serial connection (BETA)
 2. RGB LED light bars (4x)
 3. Top accessory magnets (12x)
 4. Capacitive touch sensors (4x)
