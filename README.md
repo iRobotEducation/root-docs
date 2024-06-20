@@ -120,6 +120,27 @@ When the wheels turn different speeds, the robot will turn or arc.
 When the wheels are the same speed in opposite directions, the robot will turn in place.
 Each wheel is limited to 10 cm/s.
 
+### Features
+
+![3D drawing of Root with numbered features](images/root-features.svg)
+
+1. USB-C charging port
+2. RGB LED light bars (4x)
+3. Top accessory magnets (12x)
+4. Capacitive touch sensors (4x)
+5. Programmable marker lift/drop
+6. Ambient light sensors (2x) and eye LED lights (illuminated when on)
+7. Power/Stop yellow "nose" button
+8. Bumper sensors (2x)
+9. DC charging contacts (6.5V-9V DC input)
+10. Serial number label
+11. Programmable magnetic eraser (model RT1 only)
+12. Magnets (2x, model RT1 only)
+13. Hand grip indents (2x)
+14. Drive wheels with gear motors and encoders (2x)
+15. Scanning color sensors (32x, model RT1 only)
+16. Cliff sensor (model RT1 only)
+
 ### Drawings
 
 #### Top
