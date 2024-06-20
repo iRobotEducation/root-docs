@@ -144,9 +144,15 @@ You can use these to hold accessories in place by gluing magnets to your accesso
 
 ## Electrical
 
+### Battery
+
+Root has an integrated 2500mAh 3.6V 9Wh Li-Ion battery.
+The battery can be charged using a standard USB-C charger through the USB-C port on the top of the robot.
+A USB-C to USB-A charging cable is included in the box.
+
 ### USB Power Output
 
-Root has the ability to provide power to an accessory from the USB-C port.
+Root robots have ability to provide power to an accessory from the USB-C port.
 When the robot detects an Upwards Facing Port (UFP), e.g. a USB device, rather than a USB charger or host, it will supply 5V with a maximum of 250mA to the VBUS pin of the USB-C port.
 
 [This cable](https://www.amazon.com/AmazonBasics-USB-Type-C-Micro-B-Cable/dp/B01LONQBDG/) has been verified to work with the robot.
@@ -352,9 +358,9 @@ For experienced users, there are also the iRobot Python apps (BETA), which inclu
 Advanced developers can create their own libraries and projects that work with Root by utilizing the publically avilable [Bluetooth® Low Energy (BLE) protocol](https://github.com/RootRobotics/root-robot-ble-protocol) usedy by the Root robots.
 The protocol documentation should provide enough information for you to connect to and use the robot with any hardware that supports BLE using the programming language and Bluetooth® library of your choice.
 
-> [!NOTE]
-> Implementation of the Bluetooth protocol requires advanced coding experience and some understanding of how Bluetooth Low Energy works.
-> To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
+Please note:
+Implementation of the Bluetooth protocol requires advanced coding experience and some understanding of how Bluetooth Low Energy works.
+To help you get started, we’ve included a basic sample script that runs on a Raspberry Pi® 3 to drive your Root® coding robots using arrow keys.
 
 </details>
 
