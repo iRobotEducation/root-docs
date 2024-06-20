@@ -30,6 +30,10 @@ While the robot is charging, a light on top of the robot will flash yellow.
 Once the robot is fully charged, the light will stay green.
 Please note that the robot is not able to connect over Bluetooth while it is charging.
 
+For additional information about charging, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
+
+### Charging contacts
+
 The Root robot can also be charged by applying between 6.5V and 9V across the two metal charging contacts on the rear of the robot.
 The robot has a special circuit to make the charging contacts reversible, so it does not matter which charging contact has the higher voltage.
 However, please note that the USB-C port supports higher charging currents and typically results in faster charging.
@@ -37,8 +41,6 @@ However, please note that the USB-C port supports higher charging currents and t
 > [!WARNING]
 > Do not apply more than 9 Volts across the charging contacts.
 > Excessive voltage can damage the robot.
-
-For additional information about charging, refer to the [Product Information Guide](files/Root-Product-Info-Guide.pdf).
 
 ## Bluetooth Connection
 
@@ -113,6 +115,20 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 ## Mechanical
 
 Root is a differential drive robot with two driven wheels and four slide points to limit tipping.
+
+### Drawings
+
+#### Top
+
+![Dimensioned drawing of top of Root](images/drawing-top.svg)
+
+#### Bottom
+
+![Dimensioned drawing of bottom of Root](images/drawing-bottom.svg)
+
+#### Side
+
+![Dimensioned drawing of side of Root](images/drawing-side.svg)
 
 ### Top Magnets
 
