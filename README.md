@@ -132,9 +132,11 @@ Root is a differential drive robot with two driven wheels and four slide points 
 
 ### Top Magnets
 
-Root has ten small magnets underneath the top surface to help with attaching accessories. These 5mm-diameter magnets are in a 32mm x 32mm grid as shown in the image below. Each magnet has the North pole facing up. You can use these to hold accessories in place by gluing magnets to your accessory that line up with the magnets in Root. (*Make sure the magnets are facing the right direction first!*)
-
-![Top Magnet Positions](images/root-top-magnets.png)
+Root has ten small magnets underneath the top surface to help with attaching accessories.
+These 5mm diameter magnets are in a 32mm x 32mm grid as shown in the [top drawing](#top) of the robot.
+Each magnet has the North pole facing up.
+You can use these to hold accessories in place by gluing magnets to your accessory that line up with the magnets in Root.
+(*Make sure the magnets are facing the right direction first!*)
 
 ## Electrical
 
