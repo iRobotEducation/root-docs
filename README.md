@@ -84,7 +84,7 @@ If you are having issues with your Bluetooth connection, please see the FAQ belo
 | Firmware Updates | Bluetooth® Low Energy | Bluetooth® Low Energy |
 | **Power** | | |
 | Battery | Integrated 9Wh Li-Ion  | Integrated 9Wh Li-Ion |
-| Charging | USB-C cable (included) or charging contacts | USB-C cable (included) or charging contacts |
+| Charging | USB-C cable (included) or<br>DC charging contacts | USB-C cable (included) or<br>DC charging contacts |
 | Output | USB-C (0.2A at 5V) | USB-C (0.2A at 5V) |
 | **Sensors** | | |
 | Power button | ✓ | ✓ |
@@ -160,6 +160,8 @@ When the robot detects an Upwards Facing Port (UFP), e.g. a USB device, rather t
 [This article](https://www.embedded.com/design/power-optimization/4458380/USB-Type-C-and-power-delivery-101-----Ports-and-connections) contains more information about USB-C cable configurations.
 
 ## Frequently Asked Questions
+
+Find additional answers and information at the full [iRobot Education Knowledge Base](https://experience.irobot.com/en/irobot-education-support).
 
 ### About
 
