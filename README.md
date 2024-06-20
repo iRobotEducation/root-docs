@@ -123,7 +123,7 @@ The maximum speed is 10 cm/s.
 
 ### Features
 
-![3D drawing of Root with numbered features](images/root-features.svg)
+![3D drawing of Root with numbered features](images/root-features-top.svg)
 
 1. USB-C charging port
 2. RGB LED light bars (4x)
@@ -133,6 +133,9 @@ The maximum speed is 10 cm/s.
 6. Ambient light sensors (2x) and eye LED lights (illuminated when on)
 7. Power/Stop yellow "nose" button
 8. Bumper sensors (2x)
+
+![3D drawing of Root with numbered features](images/root-features-bottom.svg)
+
 9. DC charging contacts (6.5V-9V DC input)
 10. Serial number label
 11. Programmable magnetic eraser (model RT1 only)
