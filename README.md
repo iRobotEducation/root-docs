@@ -130,7 +130,7 @@ The maximum speed is 10 cm/s.
 3. Top accessory magnets (12x)
 4. Capacitive touch sensors (4x)
 5. Programmable marker lift/drop
-6. Ambient light sensors (2x) and eye LED lights (illuminated when on)
+6. Ambient light sensors (2x) and eye LED lights (illuminated when robot is on)
 7. Power/Stop yellow "nose" button
 8. Bumper sensors (2x)
 
